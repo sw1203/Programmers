@@ -6,7 +6,7 @@ int solution(vector<vector<int>> board, vector<int> moves) {
 	int answer = 0;
 	vector<vector<int>> board2;
 	stack<int> st;
-
+	
 	for (int i = 0; i<board.size(); i++) {
 		vector<int> tmp;
 		for (int z = 0; z<board[0].size(); z++) {
